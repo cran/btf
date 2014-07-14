@@ -1,0 +1,7 @@
+useDynLib(btf)
+import(coda)
+importFrom(Matrix, Matrix)
+importFrom(Matrix, bandSparse)
+export(btf, getPostEst, getPost, plot.btf, tf)
+S3method("plot","btf")
+
